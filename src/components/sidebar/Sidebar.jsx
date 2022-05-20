@@ -17,7 +17,7 @@ import {LineStyle,
 
 const Sidebar = ()=>{
   return(
-  <div className="sidebar-container">
+  <aside className="sidebar-container">
     <div className="sidebar-wrapper">
     
       <SidebarMenu menuTitle="Dashboard"
@@ -50,7 +50,7 @@ const Sidebar = ()=>{
       />
       
     </div>
-  </div>
+  </aside>
 )}
 
 export default Sidebar
